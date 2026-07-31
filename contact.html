@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact &amp; devis gratuit | Courrian TP — Blaignan-Prignac</title>
+  <meta name="description" content="Contactez Courrian TP pour un devis gratuit : 05 56 09 08 09 — 4 rue des Colombiers, 33340 Blaignan-Prignac. Travaux publics et granulats dans tout le Médoc.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=Barlow+Condensed:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container">
+      <span>📍 4 rue des Colombiers, 33340 Blaignan-Prignac</span>
+      <a href="tel:0556090809">📞 05 56 09 08 09</a>
+    </div>
+  </div>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo"><img src="img/logo.png" alt="Courrian TP" style="height:50px;width:auto"></a>
+      <button class="burger" aria-label="Ouvrir le menu"><span></span><span></span><span></span></button>
+      <ul class="nav-liens">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="travaux-publics.html">Travaux publics</a></li>
+        <li><a href="gravieres.html">Granulats & Gravière</a></li>
+        <li><a href="realisations.html">Réalisations</a></li>
+        <li><a href="a-propos.html">À propos</a></li>
+        <li><a href="contact.html" class="btn btn-rouge actif">Devis gratuit</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero hero-mini">
+    <div class="container">
+      <span class="surtitre">Contact</span>
+      <h1>Demandez votre <span class="accent">devis gratuit</span></h1>
+      <p class="sous-titre">Particuliers, professionnels et collectivités : notre équipe vous répond rapidement.</p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container deux-colonnes" style="align-items:flex-start; gap:2.5rem">
+
+      <div style="flex:1">
+        <span class="surtitre">Écrivez-nous</span>
+        <h2 class="section-titre">Formulaire de contact</h2>
+        <p class="message-confirmation">Merci ! Votre message a bien été envoyé. Nous vous recontacterons rapidement.</p>
+        <form class="formulaire" id="form-contact" style="margin-top:1.5rem">
+          <div class="champ-double">
+            <div>
+              <label for="nom">Nom *</label>
+              <input type="text" id="nom" name="nom" required>
+            </div>
+            <div>
+              <label for="telephone">Téléphone *</label>
+              <input type="tel" id="telephone" name="telephone" required>
+            </div>
+          </div>
+          <div>
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="sujet">Votre besoin</label>
+            <select id="sujet" name="sujet">
+              <option>Devis travaux publics</option>
+              <option>Achat de granulats</option>
+              <option>Location d'engin avec chauffeur</option>
+              <option>Autre demande</option>
+            </select>
+          </div>
+          <div>
+            <label for="message">Votre message *</label>
+            <textarea id="message" name="message" required placeholder="Décrivez votre projet : nature des travaux, lieu, délais souhaités…"></textarea>
+          </div>
+          <label class="consentement">
+            <input type="checkbox" required>
+            <span>En cochant cette case, j'accepte que les données communiquées soient utilisées pour me recontacter. Vous disposez de droits d'accès, de rectification et d'effacement de vos données (voir <a href="mentions-legales.html" style="text-decoration:underline">mentions légales</a>).</span>
+          </label>
+          <div>
+            <button type="submit" class="btn btn-rouge">Envoyer votre message</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="coordonnees" style="flex:1">
+        <span class="surtitre">Nos coordonnées</span>
+        <h2 class="section-titre">Venez nous voir</h2>
+        <img src="img/Site de Blaignan-Prignac 9.jpeg" alt="Courrian TP" style="width:100%;height:280px;object-fit:cover;border-radius:var(--radius);margin-bottom:1.5rem;box-shadow:0 4px 15px rgba(0,0,0,0.1)">
+        <div style="margin-top:1.5rem">
+          <div class="ligne">
+            <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="#14161a" stroke-width="2"><path d="M12 21s-7-6.1-7-11a7 7 0 0114 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+            <div>
+              <h3>Adresse</h3>
+              <p>4 rue des Colombiers<br>33340 Blaignan-Prignac</p>
+            </div>
+          </div>
+          <div class="ligne">
+            <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="#14161a" stroke-width="2"><path d="M22 16.9v3a2 2 0 01-2.2 2A19.8 19.8 0 012 4.2 2 2 0 014 2h3a2 2 0 012 1.7c.1 1 .4 2 .7 2.9a2 2 0 01-.5 2.1L8 9.9a16 16 0 006.1 6.1l1.2-1.2a2 2 0 012.1-.5c.9.3 1.9.6 2.9.7a2 2 0 011.7 1.9z"/></svg></div>
+            <div>
+              <h3>Téléphone</h3>
+              <p><a href="tel:0556090809">05 56 09 08 09</a></p>
+            </div>
+          </div>
+          <div class="ligne">
+            <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="#14161a" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+            <div>
+              <h3>Zone d'intervention</h3>
+              <p>Tout le Médoc : Lesparre, Pauillac, Soulac-sur-Mer, Hourtin, Lacanau, Castelnau-de-Médoc…</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <iframe class="carte-map" title="Localisation Courrian TP"
+        src="https://www.google.com/maps?q=4+rue+des+Colombiers,+33340+Blaignan-Prignac&output=embed"
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grille">
+        <div>
+          <h3>Courrian TP</h3>
+          <p>Entreprise familiale de travaux publics et d'exploitation de gravières depuis 1956, au service du Médoc.</p>
+        </div>
+        <div>
+          <h3>Navigation</h3>
+          <ul>
+            <li><a href="travaux-publics.html">Travaux publics</a></li>
+            <li><a href="gravieres.html">Granulats & Gravière</a></li>
+            <li><a href="realisations.html">Réalisations</a></li>
+            <li><a href="a-propos.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li>4 rue des Colombiers<br>33340 Blaignan-Prignac</li>
+            <li><a href="tel:0556090809">05 56 09 08 09</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bas">
+        <span>© 2026 Entreprise Courrian TP — Tous droits réservés</span>
+        <a href="mentions-legales.html">Mentions légales</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
